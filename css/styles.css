@@ -1,4 +1,5 @@
 * {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -8,13 +9,13 @@
 
 
 body {
-  background: rgb(250,157,7);
-  background: radial-gradient(circle, rgba(250,157,7,1) 0%, rgba(7,183,255,1) 100%);
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(140,0,255) 100%);
 }
 
 .navbar {
-  background: rgb(250,157,7);
-  background: radial-gradient(circle, rgba(250,157,7,1) 0%, rgba(7,183,255,1) 100%);
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(140, 0, 255) 100%);
   color: #fdf2f2;
   padding: 15px;
   width: 100%;
@@ -72,16 +73,21 @@ body {
   display: inline-block;
   margin: 1% 1%;
   padding: 15px;
+  background-color: rgba( 36 36 36) ;
+  border-radius: 60px;
 }
 
 .card img {
   height: 250px;
   width: 60%;
   margin: 5px;
+  padding: 3px;
+  background-image:linear-gradient(225deg, #ff8364 0, #ff7162 16.67%, #ff595e 33.33%, #ff3858 50%, #ef0053 66.67%, #e20052 83.33%, #d70055 100%);
 }
 
 footer {
-  background-color:#1d6285;
+  color: blueviolet;
+  background-color:#000000;
   padding: 25px;
   text-align: center;
 }
@@ -96,6 +102,62 @@ h2{
   color: rgb(228, 207, 16);
 }
 p{
-  background: #cf7a0b;
+ 
   color: #c7c7c7;
+
+  font-size: 12px;
 }
+.card_carrinho{
+  width: 80%;
+  display: flex;
+  margin: 1% 1%;
+  margin-left: 100px;
+  padding: 15px;
+  font-size: 10px;
+  color: black;
+  text-align: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+.card_carrinho img{
+  height: 300px;
+  width: 30%;
+  margin: 10px;
+  transition: all ease 0.2s;
+  cursor: pointer;
+  border-color: aliceblue;
+  border-radius: 2px;
+}
+.card_carrinho h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: aliceblue;
+  border-radius:3px;
+  padding: 5px;
+  margin-right: 10px;
+}
+.card.carrinho h2{
+  margin-left: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.card_carrinho button{
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: chartreuse;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+
+
+
+
+
